@@ -1,0 +1,80 @@
+/***** Colors *****
+ *
+ * http://paletton.com/#uid=75g110kqsoWhjtzlNqEsWlDwXiE
+ *
+ * #c65b8c (lighter magenta)
+ * #7d0039 (darker magenta)
+ *
+ * #a8d863 (light green)
+ *
+ */
+
+/***** body *****/
+
+body {
+  background-color: #edf7df;
+  padding: 75px;
+}
+
+a {
+  color: #c65b8c;
+}
+
+a:hover {
+  color: #7d0039;
+}
+
+/***** navbar *****/
+
+.navbar {
+  background-color: #7d0039;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-item .nav-link {
+  color: #a8d863;
+}
+
+.navbar-light .navbar-brand:focus {
+  color: #a8d863;
+}
+
+.navbar-light .nav-item .nav-link:focus {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .nav-item .nav-link:hover {
+  color: #c65b8c;
+}
+
+.navbar-toggler {
+  background-color: #a8d863;
+}
+
+.padded-paragraph {
+  margin: 20px 0px;
+}
+
+/***** Home *****/
+
+.matt-avatar {
+  height: 150px;
+  width: 150px;
+}
+
+.heading-color-accent {
+  color: #c65b8c;
+}
+
+/***** Bio *****/
+
+.faq-question {
+  font-weight: bold;
+}
+
+/***** Resume *****/
+
+.resume-heading {
+  margin-top: 40px;
+}
