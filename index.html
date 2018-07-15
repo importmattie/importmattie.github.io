@@ -29,6 +29,9 @@
           <li class="nav-item">
             <a id="content-resume-link" class="nav-link changes-content" href="#">Resume</a>
           </li>
+          <li class="nav-item">
+            <a id="content-games-link" class="nav-link changes-content" href="#">Games</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -67,6 +70,10 @@
             <h5 class="heading-color-accent">Ruthless Book Devourer</h5>
             <p class="padded-paragraph">I read <strong>A LOT</strong> (tech or otherwise) to keep my skills up-to-date and explore new ideas.</p>
           </p>
+
+          <p class="padded-paragraph">
+            <h3>New!</h3> Check out my game <a href="https://matthewniznik.github.io/PastelStalactites/pastelStalactites.html">Pastel Stalactites</a> (more info in the "Gaming" tab)
+          </p>
         </div>
 
         <!-- BIO -->
@@ -92,8 +99,9 @@
           <h4>Discovering Programming</h4>
           <p class="padded-paragraph">
             In high school, I didn't take any programming classes primarily because, get this, they wouldn't inflate my GPA compared to other options.
+            (I guess no one told me high school GPA doesn't matter after...high school.)
             Instead, I focused on math and science and decided Meteorology was a good marriage of those fields.
-            Luckily, I recovered from that misstep by taking a Computer Science 101 course in the spring of my freshman year at the University of Miami.
+            Luckily, I began to undo my detour by taking a Computer Science 101 course in the spring of my freshman year at the University of Miami.
             From there, I started plotting how to fit a Computer Science major into my degree.
           </p>
           <h4>Detour In Other Worlds</h4>
@@ -108,7 +116,7 @@
             I finished my degree and spent a year as a postdoctoral researcher cobbling together some scientific software to help with data analysis.
             In the process, I realized I loved building the software but just didn't have much of a passion for doing scientific data analysis anymore.
             I also surprised myself and married another PhD student, which made the prospect of constantly moving between the somewhat limited locations of employment in my field as often as each year even more unappealing.
-            These factors led me to finally "flip the switch" and become a (web) developer, and I often wonder why I didn't do that sooner.
+            These factors led me to finally "flip the switch" and become a web developer, and I often wonder why I didn't do that sooner.
             (I <strong>did</strong> meet my wife and her cat because of graduate school, so that alone made it worth it!)
           </p>
           <h4>Takeaway</h4>
@@ -117,15 +125,28 @@
           </p>
           <h2>Fun Facts</h2><hr>
           <ul>
-            <li>
+
+            <li class="fun-fact">
               I'm a Pennsylvania native - specifically the more "sylvan" part of the state.
             </li>
 
-            <li>
+            <li class="fun-fact">
+              My wife and I love board games; some of my favorites are:</li>
+              <ul>
+                <li>Ticket to Ride (particularly US and Pennsylvania)</li>
+                <li>Settlers of Catan</li>
+                <li>Mysterium</li>
+                <li>Suburbia</li>
+                <li>Quirkle</li>
+                <li>Mass Effect Risk (me and only me)</li>
+              </ul>
+            </li>
+
+            <li class="fun-fact">
               My wife and I each built gaming computers for ourselves; it's not that hard, you should try it
             </li>
 
-            <li>
+            <li class="fun-fact">
               I have owned the following game consoles:
               <ul>
                 <li>SEGA</li>
@@ -166,21 +187,25 @@
             Yes, <a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47489/">I have a PhD</a>,
             but I get more enjoyment and fulfillment out of building websites.
             I may write an article about my experience at some point in the future.
+            In the meantime, check out my bio for more explanation.
           </p>
           <p class="faq-question">2) But don't you want to be a professor?</p>
           <p>
             Maybe at some point I did.
             But a lot of people I've talked to are unaware that a PhD doesn't guarantee you a job as a professor.
-            It turns out they don't hand them out along with your diploma.
+            Here's a simple example that might illuminate why:
           </p>
           <p>
-            Think about it.
-            Each professor generally graduates, say, 10 new PhDs throughout his career.
-            Even if the number of academic positions doubled or so with each generation, that's still 80% of graduates who have no job as a professor.
-            The rest have to do <strong>something</strong>.
+            Let's say a professor mentors about 10 new PhD students (in 30-ish years) before retiring.
+            Even if the number of academic positions doubled or so with each generation,
+            80% of those PhD graduates have to find <strong>something</strong> else to do.
+            The other 20% have to <strong>really want it</strong> and I admire the commitment and sacrifice they make.
+            But that life turned out not to be for me.
           </p>
           <p>
-            I'll take work in a field that I enjoy more, generally pays a better salary, and allows me to settle down sooner in a heartbeat.
+            Some of it came down to personal choice.
+            I wanted a career with less travel that would allow my family to choose where to settle down.
+            Like many others, I'm also fortunate enough to have numerous interests.
           </p>
           <p>
             <a href="https://www.nytimes.com/2016/07/14/upshot/so-many-research-scientists-so-few-openings-as-professors.html?_r=0">This article</a> from the (failing) New York Times explains the situation fairly well. I also like <a href="https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb">this one</a> from The Economist.
@@ -191,23 +216,27 @@
             I know people who are too afraid to leave and pursue a new career primarily because they don't want to disappoint advisors, family, etc.
             That's not healthy for anyone.
           </p>
+          <p class="faq-question">4) You've been a web developer since 2016; why have none of your job titles had "web" in their names?</p>
+          <p>
+            Your guess is as good as mine.
+          </p>
         </div>
 
         <!-- RESUME -->
         <div id="content-resume" class="col-md-9 content" style="display: none;">
           <h1>Matthew Niznik</h1>
-          <h3>(Web) Application Developer</h3>
+          <h3>Web Developer</h3>
           <p><strong>Email:</strong> matt@[thisSite]</p>
 
           <h3 class="resume-heading">Languages and Technologies</h3><hr>
 
           <p class="padded-paragraph">
             <strong>Languages:</strong>
-            PHP, Python, Java, Javascript (jQuery), Swift
+            PHP, Javascript, Python, Java
           </p>
           <p class="padded-paragraph">
             <strong>Frameworks:</strong>
-            Laravel, Bootstrap
+            Laravel, Symfony, ExtJS, Bootstrap
           </p>
           <p class="padded-paragraph">
             <strong>Web:</strong>
@@ -228,9 +257,21 @@
 
           <h3 class="resume-heading">Employment</h3><hr>
           <p class="padded-paragraph">
+            <strong>(Web) Application Programmer</strong><br>
+            Stowers Resource Management, Inc.<br>
+            (Supporting Stowers Institute for Medical Research)<br>
+            (2017 - Present)
+          </p>
+          <ul>
+            <li>Responsible for supporting a custom web-based Laboratory Information Management System (LIMS) used by the Institute</li>
+            <li>Provide new features and bugfixes for modules in our current tech stack (ExtJS & Symfony)</li>
+            <li>Upgrade older modules using legacy technology to our current tech stack</li>
+          </ul>
+
+          <p class="padded-paragraph">
             <strong>(Web) Application Developer</strong><br>
             Rutgers University<br>
-            (2016 - Present)
+            (2016 - 2017)
           </p>
           <ul>
             <li>Responsible for designing, building, testing, and deploying web applications that increase productivity and reduce costs for the <a href="http://docs.rutgers.edu">Division of Continuing Studies</a></li>
@@ -266,6 +307,20 @@
             <strong>M.S.</strong>/<strong>Ph.D.</strong> in Atmospheric Science (3.94)
           </p>
 
+        </div>
+
+        <!-- Games -->
+        <div id="content-games" class="col-md-9 content" style="display: none;">
+            <h1>Pastel Stalactites</h1>
+            <p>
+              Try it out <a href="https://matthewniznik.github.io/PastelStalactites/pastelStalactites.html">here</a>!
+            </p>
+            <img src="img/pastelStalactites.png" width="720px" height="475px"><br><br>
+            <p>
+              You are a rectangular, colorful spelunker who can stretch and shrink on a whim!
+              Pastel stalactites of varying heights will tease, taunt, and tempt you to remain as tall as you can for maximum points.
+              Don't hit your head!
+            </p>
         </div>
 
         <div class="col-md-3">

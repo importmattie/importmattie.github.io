@@ -69,6 +69,12 @@ a:hover {
 
 /***** Bio *****/
 
+.fun-fact {
+  margin: 0 0 5px 0;
+}
+
+/***** FAQ *****/
+
 .faq-question {
   font-weight: bold;
 }
