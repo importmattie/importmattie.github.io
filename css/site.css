@@ -67,6 +67,18 @@ a:hover {
   color: #c65b8c;
 }
 
+h1 {
+  font-size: 250%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
 /***** Bio *****/
 
 .fun-fact {
