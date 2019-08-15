@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>matthewniznik.com</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/site.css">
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -23,7 +23,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-toggleable-sm navbar-light fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-nav-dropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Test">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,10 +56,10 @@
         <div id="content-home" class="col-md-9 content">
           <div class="row">
           <div class="col-lg-3">
-            <div class="hidden-lg-up">
+            <div class="d-lg-none">
               <img class="matt-avatar" src="img/mattAvatar3.png" alt="Matt's Avatar Picture">
             </div>
-            <div class="hidden-md-down">
+            <div class="d-none d-lg-block">
               <img class="matt-avatar" src="img/mattAvatar3.png" alt="Matt's Avatar Picture">
             </div>
           </div>
@@ -93,11 +93,11 @@
           <h2>My First Computer</h2>
           <p class="padded-paragraph">
             My love of technology was fostered by a mid '90s AT&T computer with a 60 MHz processor, Windows 3.1, and a bunch of fun games like <a href="https://en.wikipedia.org/wiki/Red_Baron_(1990_video_game)">Red Baron</a> and Typing Tutor.
-            One of my favorite tech memories is when my dad told me our computer was getting a second hard drive with <strong>A WHOLE GIGABYTE OF STORAGE!</strong>
-            Another is how thrilled I was to borrow and watch a promotional video for Windows 95.
+            One of my favorite tech memories is when I found out our computer was getting a second hard drive with <strong>A WHOLE GIGABYTE OF STORAGE!</strong>
+            Another is how thrilled I was to borrow and watch a promotional video for Windows 95 from some neighbors.
             One of my least favorite memories is when I asked at an electronics store what games an old IBM computer I inhereted could run.
             They laughed and said I should just use it as an anchor.
-            Maybe that was why my parents bought the AT&T.
+            I ignored their "advice".
           </p>
           <h2>Early Gaming</h2>
           <p class="padded-paragraph">
@@ -127,7 +127,7 @@
           <h2>Finding Myself</h2>
           <p class="padded-paragraph">
             I finished my degree and spent a year as a postdoctoral researcher cobbling together some scientific software to help with data analysis.
-            In the process, I realized I loved writing the code and pouring through statistics but just didn't have much of a passion for the science anymore.
+            In the process, I realized I loved writing the code and pouring through statistics but just didn't have much of a passion for the science itself anymore.
             I also surprised myself and married another PhD student, which made the prospect of constantly moving between the somewhat limited locations of employment in my field as often as each year even more unappealing.
             These factors led me to finally "flip the switch" and start a career in technology, and I often wonder why I didn't do that sooner.
             (I <strong>did</strong> meet my wife, her cat, and some of my best friends because of graduate school, so it was worth it in the end!)
@@ -138,11 +138,6 @@
           </p>
           <h2>Fun Facts</h2><hr>
           <ul>
-
-            <li class="fun-fact">
-              I'm a Pennsylvania native - specifically the more "sylvan" part of the state.
-            </li>
-
             <li class="fun-fact">
               While I can play many instruments, I am most strongly connected to cello (including a 13-year hiatus) and piano.
             </li>
@@ -151,11 +146,11 @@
               My wife and I love board and card games; some of my favorites are:
               <ul>
                 <li>Ticket to Ride (particularly US and Pennsylvania)</li>
-                <li>Love Letter</li>
+                <li>Wingspan</li>
+                <li>Azul</li>
                 <li>Mysterium</li>
-                <li>Suburbia</li>
+                <li>Love Letter</li>
                 <li>Quirkle</li>
-                <li>Mass Effect Risk (me and only me)</li>
               </ul>
             </li>
 
@@ -288,9 +283,9 @@
             (2017 - Present)
           </p>
           <ul>
-            <li>Responsible for supporting a custom web-based Laboratory Information Management System (LIMS) used by the Institute</li>
-            <li>Provide new features and bugfixes for modules in our current tech stack (ExtJS & Symfony)</li>
-            <li>Upgrade older modules using legacy technology to our current tech stack</li>
+            <li>Responsible for building and supporting a custom web-based Laboratory Information Management System (LIMS) used by the Institute</li>
+            <li>Lead developer on one of two teams upgrading older modules using legacy technology to our current tech stack (ExtJS & Symfony)</li>
+            <li>Advocate/mentor for increasing our automated test coverage using Selenium/Codeception</li>
           </ul>
 
           <p class="padded-paragraph">
