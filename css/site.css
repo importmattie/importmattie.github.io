@@ -7,6 +7,9 @@
  *
  * #a8d863 (light green)
  *
+ * refactor to :root{ --varNAme }
+ * then inline var(--varName)
+ *
  */
 
 /***** body *****/
@@ -63,12 +66,26 @@ a:hover {
   width: 150px;
 }
 
+.matt-avatar-lg {
+  height: 200px;
+  width: 200px;
+}
+
+.matt-avatar-xl {
+  height: 250px;
+  width: 250px;
+}
+
 .heading-color-accent {
   color: #c65b8c;
 }
 
 h1 {
   font-size: 250%;
+}
+
+h1 .weak {
+  color: #c4aeb8;
 }
 
 h2 {
@@ -95,4 +112,11 @@ h3 {
 
 .resume-heading {
   margin-top: 40px;
+}
+
+/***** Games *****/
+
+.img-expand-max {
+  width: 100%;
+  max-width: 600px;
 }
