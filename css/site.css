@@ -24,10 +24,21 @@ a {
 }
 
 a:hover {
+  cursor: pointer;
   color: #7d0039;
 }
 
 /***** navbar *****/
+
+/* Override what bootstrap is trying to do with
+ * navbar-brand when no link exists */
+a:not([href]):not([tabindex]) {
+  color: #a8d863;
+}
+
+a:not([href]):not([tabindex]):hover {
+  color: #a8d863;
+}
 
 .navbar {
   background-color: #7d0039;
@@ -36,14 +47,6 @@ a:hover {
 .navbar-light .navbar-brand,
 .navbar-light .nav-item .nav-link {
   color: #a8d863;
-}
-
-.navbar-light .navbar-brand:focus {
-  color: #a8d863;
-}
-
-.navbar-light .nav-item .nav-link:focus {
-  color: #ffffff;
 }
 
 .navbar-light .navbar-brand:hover,
@@ -119,4 +122,9 @@ h3 {
 .img-expand-max {
   width: 100%;
   max-width: 600px;
+}
+
+/***** Vue *****/
+[v-cloak] {
+  display: none;
 }

@@ -1,13 +1,23 @@
-$(document).ready(function() {
-  $(".changes-content").click(function() {
-    let contentToShow = $(this).attr("id").replace("-link", "");
-    $(".content").hide();
-    $("#" + contentToShow).show();
-
-    // Only toggle the toggler if it's visible
-    const navbarToggler = $(".navbar-toggler");
-    if (navbarToggler.css("display") != "none" && contentToShow != "content-home") {
-      navbarToggler.click();
+var app = new Vue({
+  el: '#app',
+  data: {
+    showHome: true,
+    showAboutMe: false,
+    showFaq: false,
+    showResume: false,
+    showGames: false
+  },
+  methods: {
+    show: function (sectionName) {
+      this.hideAll();
+      this['show'+sectionName] = true;
+    },
+    hideAll: function (event) {
+      this.showHome = false;
+      this.showAboutMe = false;
+      this.showFaq = false;
+      this.showResume = false;
+      this.showGames = false;
     }
-  });
-});
+  }
+})
