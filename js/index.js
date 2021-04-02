@@ -4,7 +4,6 @@ var app = new Vue({
     showHome: true,
     showAboutMe: false,
     showFaq: false,
-    showResume: false,
     showGames: false
   },
   methods: {
@@ -16,7 +15,6 @@ var app = new Vue({
       this.showHome = false;
       this.showAboutMe = false;
       this.showFaq = false;
-      this.showResume = false;
       this.showGames = false;
     }
   }

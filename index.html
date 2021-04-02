@@ -35,16 +35,10 @@
               <a class="nav-link" v-on:click="show('AboutMe')">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" v-on:click="show('Resume')">Resume</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" v-on:click="show('Games')">Games</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" v-on:click="show('Faq')">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.matthewniznik.com/blog">Blog</a>
             </li>
           </ul>
         </div>
@@ -69,7 +63,8 @@
             </div>
             <div class="col-lg-1"></div>
               <div class="col-lg-8">
-                <h1>Matt<span class="weak">hew J Niznik, PhD</span></h1>
+                <h1>Hi - I'm Mattie!<br></h1>
+                <h2><span class="weak">Matthew J Niznik, PhD</span></h2>
                 <h2>I am...</h2>
                 <ul>
                   <li>human (after all) <a href="https://youtu.be/PXYeARRyDWk">[1]</a><a href="https://youtu.be/WtKxEmuSxBc">[2]</a></li>
@@ -227,94 +222,6 @@
             </p>
           </div>
 
-          <!-- RESUME -->
-          <div id="content-resume" class="col-md-9 content" v-if="showResume" v-cloak>
-            <h1>Matthew J Niznik, PhD</h1>
-            <p><strong>Email:</strong> matt@[thisSite]</p>
-
-            <h2 class="resume-heading">Skills</h2><hr>
-
-            <p class="padded-paragraph">
-              <strong>Languages:</strong>
-              Python, JavaScript, R, PHP, Java
-            </p>
-            <p class="padded-paragraph">
-              <strong>Data:</strong>
-              SQL, SciPy, Matplotlib, Tableau, Statistics, Numerical Modeling, Technical Writing
-            </p>
-            <p class="padded-paragraph">
-              <strong>Web:</strong>
-              Django, Laravel, Symfony, MySQL, HTML5, CSS
-            </p>
-            <p class="padded-paragraph">
-              <strong>Testing:</strong>
-              Selenium, Laravel Dusk, Codeception, PHPUnit
-            </p>
-            <p class="padded-paragraph">
-              <strong>Support:</strong>
-              Git/GitHub, Jenkins, Bash
-            </p>
-
-            <h2 class="resume-heading">Education</h2><hr>
-            <p class="padded-paragraph"><strong>Rutgers University</strong> (2010-2015)<br>
-              <strong>Ph.D.</strong>/<strong>M.S.</strong> in <a href="http://envsci.rutgers.edu/academics/atmos_grad/">Atmospheric Science</a> (3.94)<br>
-              <a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47489/">Dissertation</a>
-            </p>
-            <p class="padded-paragraph"><strong>University of Miami</strong> (2006-2010)<br>
-              <strong>B.S.</strong> in <a href="https://csc.as.miami.edu/">Computer Science</a> and <a href="https://undergraduate.rsmas.miami.edu/academics/majors/meteorology/index.html">Meteorology/Math</a> (3.99)<br>
-            </p>
-
-            <h2 class="resume-heading">Employment</h2><hr>
-
-            <p class="padded-paragraph">
-              <strong>Research Associate II (Web Developer/Database Administrator)</strong><br>
-              <a href="https://www.colostate.edu/">Colorado State University</a><br>
-              <a href="https://www.cira.colostate.edu/">Cooperative Institute for Research in the Atmosphere</a> (CIRA)<br>
-              (2020 - Present)
-            </p>
-            <ul>
-              <li>Maintain and implement new features for <a href="https://rammb-slider.cira.colostate.edu">SLIDER</a> - a web-based satellite visualization tool</li>
-              <li>Develop websites for CIRA's <a href="http://www.cloudsat.cira.colostate.edu">CloudSat Data Processing Center</a> (DPC)</li>
-              <li>Participate in data processing and management activities as needed</li>
-            </ul>
-
-            <p class="padded-paragraph">
-              <strong>(Web) Application Programmer</strong><br>
-              Stowers Resource Management, Inc.<br>
-              (Supporting <a href="https://www.stowers.org">Stowers Institute for Medical Research</a>)<br>
-              (2017 - 2020)
-            </p>
-            <ul>
-              <li>Led development on a team upgrading Laboratory Information Management System (LIMS) modules to modern ExtJS (JavaScript) & Symfony (PHP) tech stack</li>
-              <li>Designed module databases and wrote scripts to import data from legacy modules (ETL)</li>
-              <li>Built tools and methods to simplify automated testing using Selenium/Codeception and served as a mentor to junior developers</li>
-            </ul>
-
-            <p class="padded-paragraph">
-              <strong>(Web) Application Developer</strong><br>
-              <a href="https://www.rutgers.edu/">Rutgers University</a><br>
-              <a href="https://docs.rutgers.edu/">Division of Continuing Studies</a><br>
-              (2016 - 2017)
-            </p>
-            <ul>
-              <li>Designed, built, tested, and deployed Laravel (PHP) and Java web applications that managed and visualized student registration, division purchasing, and state census data</li>
-              <li>Managed application Linux servers and automated deployment process (Git/Jenkins)</li>
-              <li>Improved testing standards using PHPUnit and Laravel Dusk/Selenium</li>
-            </ul>
-
-            <p class="padded-paragraph">
-              <strong>Post Doctoral Associate</strong><br>
-              <a href="https://welcome.miami.edu/">University of Miami</a><br>
-              <a href="https://www.rsmas.miami.edu/">Rosenstiel School of Marine and Atmospheric Science</a><br>
-              (2015 - 2016)
-            </p>
-            <ul>
-              <li>Extracted and transformed terabytes of raw climate model output into a format facilitating easy loading and analysis</li>
-              <li>Calculated derived fields and performed statistical analyses of simulated extreme rainfall events using Python libraries (SciPy, Matplotlib)</li>
-              <li>Designed and built <a href="https://github.com/matthewniznik/ClickHist">ClickHist</a>, an open-source, modular data analysis tool</li>
-            </ul>
-          </div>
-
           <!-- Games -->
           <div id="content-games" class="col-md-9 content" v-if="showGames" v-cloak>
             <p>
@@ -353,23 +260,17 @@
 
           <div class="col-md-3">
             <hr class="hidden-md-up">
-            <h2>Contact</h2>
-            <p>matt@[thisSite]</p>
-
-            <hr>
-            <h2>Portfolios</h2>
-            <a href="https://github.com/matthewniznik">GitHub</a><br>
-            <a href="https://tabsoft.co/2KQ1VrI">Tableau</a><br>
-
-            <hr>
-            <h2>Social Media</h2>
-            <a href="https://linkedin.com/in/mattniznik">LinkedIn</a><br>
-            <a href="https://twitter.com/mattniznik">Twitter</a><br>
+            <h2>Let's Connect!</h2>
+            <a href="https://twitter.com/importmattie">Twitter</a><br>
+            <a href="https://www.cira.colostate.edu/staff/niznik-matthew/">Mattie@CIRA</a><br>
+            <a href="https://linkedin.com/in/importmattie">LinkedIn</a><br>
+            <a href="https://github.com/matthewniznik">GitHub</a>
 
             <hr>
             <h2>Recommended</h2>
             <a href="http://kathleenwarrell.com">Kathleen Warrell</a><br>
             <a href="https://themarketsocialist.wordpress.com/">The Market Socialist</a><br>
+            <a href="https://rammb-slider.cira.colostate.edu/">SLIDER</a><br>
             <a href="https://github.com/kitao/pyxel">Pyxel (Python Game Framework)</a><br>
             <a href="https://www.lexaloffle.com/pico-8.php">PICO-8</a><br>
             <a href="http://www.sovansuny.com/">Sovansuny (My Avatar Artist!)</a><br>
