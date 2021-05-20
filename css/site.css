@@ -64,17 +64,17 @@ a:not([href]):not([tabindex]):hover {
 
 /***** Home *****/
 
-.matt-avatar {
+.mattie-avatar {
   height: 150px;
   width: 150px;
 }
 
-.matt-avatar-lg {
+.mattie-avatar-lg {
   height: 200px;
   width: 200px;
 }
 
-.matt-avatar-xl {
+.mattie-avatar-xl {
   height: 250px;
   width: 250px;
 }
