@@ -99,6 +99,14 @@ h3 {
   font-size: 125%;
 }
 
+.small-line-height {
+  line-height: 1;
+}
+
+.pronouns {
+  font-weight: 500;
+}
+
 /***** Bio *****/
 
 .fun-fact {
