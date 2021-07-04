@@ -113,6 +113,18 @@ h3 {
   margin: 0 0 5px 0;
 }
 
+@media only screen and (min-width: 992px) {
+  .sub-list {
+    columns: 2;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sub-list {
+    columns: 3;
+  }
+}
+
 /***** FAQ *****/
 
 .faq-question {
