@@ -37,9 +37,6 @@
             <li class="nav-item">
               <a class="nav-link" v-on:click="show('Games')">Games</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" v-on:click="show('Faq')">FAQ</a>
-            </li>
           </ul>
         </div>
       </nav>
@@ -50,29 +47,12 @@
           <!-- HOME -->
           <div id="content-home" class="col-md-9 content" v-if="showHome">
             <div class="row">
-            <div class="col-lg-3">
-              <div class="d-block d-lg-none">
-                <img class="mattie-avatar" src="img/mattiePixel.png" alt="Mattie's Avatar Picture">
-              </div>
-              <div class="d-none d-lg-block d-xl-none">
-                <img class="mattie-avatar-lg" src="img/mattiePixel.png" alt="Mattie's Avatar Picture">
-              </div>
-              <div class="d-none d-xl-block">
-                <img class="mattie-avatar-xl" src="img/mattiePixel.png" alt="Mattie's Avatar Picture">
-              </div>
-            </div>
-            <div class="col-lg-1"></div>
+              <div class="col-lg-4"></div>
               <div class="col-lg-8">
                 <h1>Hi - I'm Mattie!<br></h1>
                 <h2 class="small-line-height"><span class="weak">Matthew J Niznik, PhD</span></h2>
                 <p class="pronouns small-line-height">All Pronouns Welcome <a href="https://www.health.harvard.edu/blog/gender-fluidity-what-it-means-and-why-support-matters-2020120321544">[?]</a></p>
-                <h2>I am...</h2>
-                <ul>
-                  <li>human (after all) <a href="https://youtu.be/PXYeARRyDWk">[1]</a><a href="https://youtu.be/WtKxEmuSxBc">[2]</a></li>
-                  <li>a number cruncher/<a href="https://en.wikipedia.org/wiki/Munchers">muncher</a></li>
-                  <li>an artist</li>
-                  <li>a game creator</li>
-                </ul>
+                <p>I am...taking a break for a bit. Be back soon...</p>
               </div>
             </div>
           </div>
@@ -81,32 +61,7 @@
           <div id="content-about-me" class="col-md-9 content" v-if="showAboutMe" v-cloak>
             <h1>About Me</h1><hr>
 
-            <p class="padded-paragraph">
-              A while back, I was watching Avengers: Endgame and I heard a quote that really stuck with me:
-              "Everyone fails at who they're supposed to be, Thor. The measure of a person, of a hero, is how well they succeed at being who they are."
-              I found a lot of truth in that statement and I think it reveals a lot about where I am in life.
-            </p>
-
-            <p class="padded-paragraph">
-              Instead of focusing on who I was supposed to be, let's talk about who I am.
-              I grew up loving math puzzles and video games.
-              In the past decade, I've thrived in work environments that have presented similar challenges.
-              However, I will always get my greatest feelings of fulfillment from my marriage and parenting a moody cat.
-            </p>
-
-            <p class="padded-paragraph">
-              Beyond video games, I later developed a board gaming hobby (more on those below).
-              I enjoy reading all sorts of books and expect I'll never get through my "to read" list.
-              I enjoy watching sports (most often racing and football) and tend to get excited even when checking out obscure ones.
-              I like to play golf on small, inexpensive courses but more recently I've navigated to minigolf instead.
-            </p>
-
-            <p class="padded-paragraph">
-              I'm sure I could ramble on for much longer, but I think this is a good starting point.
-              Check out the rest of my website and feel free to get in touch if you want to learn more.
-            </p>
-
-            <h2>Fun Facts</h2><hr>
+            <h2>Fun Facts</h2>
             <ul>
 
               <li class="fun-fact">
@@ -174,50 +129,13 @@
                   <ul>
                     <li>Xbox</li>
                     <li>Xbox 360</li>
-                    <li>Xbox One*</li>
+                    <li>Xbox One S</li>
+                    <li>Xbox Series S*</li>
                   </ul>
                 </ul>
               </li>
 
             </ul>
-          </div>
-
-          <!-- FAQ -->
-          <div id="content-faq" class="col-md-9 content" v-if="showFaq" v-cloak>
-            <h1>FAQ</h1><hr>
-            <p class="faq-question">1) Wait, you have a PhD? Why are you doing web development?</p>
-            <p class>
-              Why not? Yes, <a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47489/">I have a PhD</a>,
-              but I've discovered I have a talent for web development and enjoy the creativity involved.
-              And it definitely helps to work at an institute researching the atmosphere!
-            </p>
-            <p class="faq-question">2) Don't you want to be a professor?</p>
-            <p>
-              I did previously.
-              But a lot of people I've talked to are unaware that a PhD doesn't guarantee you a job as a professor (especially in recent decades).
-              Here's a simple example that might illuminate why:
-            </p>
-            <p>
-              Let's say a professor mentors about 10 new PhD students (in 30-ish years) before retiring.
-              Even if the number of academic positions doubled or so with each generation,
-              80% of those PhD graduates have to find <strong>something</strong> else to do.
-              The other 20% have to <strong>really want it</strong> and I admire the commitment and sacrifice they make.
-              But that life turned out not to be for me.
-            </p>
-            <p>
-              Some of it came down to personal choice.
-              I wanted a career with less travel that would allow my family to choose where to settle down.
-              Like many others, I'm also fortunate enough to have numerous interests.
-            </p>
-            <p>
-              <a href="https://www.nytimes.com/2016/07/14/upshot/so-many-research-scientists-so-few-openings-as-professors.html?_r=0">This article</a> from the New York Times explains the situation fairly well. I also like <a href="https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb">this one</a> from The Economist.
-            </p>
-            <p class="faq-question">3) Bitter much about #1 and #2?</p>
-            <p>
-              Not at all - I just have strong feelings about academia and the stigma around leaving it.
-              I know people who are too afraid to leave and pursue a new career primarily because they don't want to disappoint advisors, family, etc.
-              That's not healthy for anyone.
-            </p>
           </div>
 
           <!-- Games -->
@@ -259,22 +177,23 @@
           <div class="col-md-3">
             <hr class="hidden-md-up">
             <h2>Let's Connect!</h2>
+            <h3 class='h3-connect'>Work</h3>
             <a href="https://www.cira.colostate.edu/staff/niznik-matthew/">Mattie@CIRA</a><br>
-            <a href="https://twitter.com/importmattie">Twitter</a><br>
             <a href="https://linkedin.com/in/importmattie">LinkedIn</a><br>
-            <a href="https://github.com/importmattie">GitHub</a><br>
             <a href="https://scholar.google.com/citations?user=QhDYhmUAAAAJ">Google Scholar</a><br>
+            <a href="https://www.researchgate.net/profile/Mattie-Niznik">ResearchGate</a><br>
             <a href="https://orcid.org/0000-0003-2904-3146">ORCiD</a><br>
-            <a href="https://www.researchgate.net/profile/Mattie-Niznik">ResearchGate</a>
+            <a href="https://github.com/importmattie">GitHub</a><br>
+
+            <h3 class='h3-connect'>Social</h3>
+            <a href="https://twitter.com/importmattie">Twitter</a><br>
 
             <hr>
             <h2>Recommended</h2>
-            <a href="http://kathleenwarrell.com">Kathleen Warrell</a><br>
             <a href="https://themarketsocialist.wordpress.com/">The Market Socialist</a><br>
             <a href="https://rammb-slider.cira.colostate.edu/">SLIDER</a><br>
             <a href="https://github.com/kitao/pyxel">Pyxel (Python Game Framework)</a><br>
             <a href="https://www.lexaloffle.com/pico-8.php">PICO-8</a><br>
-            <a href="https://aiweirdness.com/">AI Weirdness</a><br>
             <a href="https://michaelbluejay.com/">Michael Bluejay</a>
           </div>
         </div>
